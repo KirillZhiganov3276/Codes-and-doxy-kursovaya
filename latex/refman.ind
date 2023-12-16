@@ -1,0 +1,63 @@
+\begin{theindex}
+
+  \item {CheckPassword}
+    \subitem {User}, \hyperpage{11}
+
+  \indexspace
+
+  \item {DataReader}, \hyperpage{5}
+    \subitem {getClient}, \hyperpage{5}
+  \item {DataReader.cpp}, \hyperpage{13}
+  \item {DataReader.h}, \hyperpage{13}
+  \item {DataReader\_fix}, \hyperpage{6}
+
+  \indexspace
+
+  \item {error\_recording}
+    \subitem {Errors}, \hyperpage{7}
+  \item {Errors}, \hyperpage{6}
+    \subitem {error\_recording}, \hyperpage{7}
+  \item {Errors.cpp}, \hyperpage{15}
+  \item {Errors.h}, \hyperpage{15}
+  \item {Errors\_fix}, \hyperpage{8}
+
+  \indexspace
+
+  \item {getClient}
+    \subitem {DataReader}, \hyperpage{5}
+
+  \indexspace
+
+  \item {interaction}
+    \subitem {ServerClientInterface}, \hyperpage{10}
+
+  \indexspace
+
+  \item {main.cpp}, \hyperpage{17}
+
+  \indexspace
+
+  \item {Server\_fix}, \hyperpage{8}
+  \item {ServerClientInterface}, \hyperpage{9}
+    \subitem {interaction}, \hyperpage{10}
+    \subitem {sum\_vec}, \hyperpage{10}
+  \item {ServerClientInterface.cpp}, \hyperpage{17}
+  \item {ServerClientInterface.h}, \hyperpage{18}
+  \item {sum\_vec}
+    \subitem {ServerClientInterface}, \hyperpage{10}
+
+  \indexspace
+
+  \item {User}, \hyperpage{10}
+    \subitem {CheckPassword}, \hyperpage{11}
+    \subitem {СheckLogin}, \hyperpage{11}
+  \item {User.cpp}, \hyperpage{19}
+  \item {User.h}, \hyperpage{20}
+  \item {User\_fix}, \hyperpage{12}
+
+  \indexspace
+
+  \item {СheckLogin}
+    \subitem {User}, \hyperpage{11}
+
+\end{theindex}

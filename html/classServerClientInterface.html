@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Документация на использование программы сервера: Класс ServerClientInterface</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Документация на использование программы сервера
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Программа для взаимодействия с клиентами</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="classServerClientInterface-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс ServerClientInterface</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Класс для взаимодействия сервера с клиентами  
+ <a href="classServerClientInterface.html#details">Подробнее...</a></p>
+
+<p><code>#include &lt;<a class="el" href="ServerClientInterface_8h_source.html">ServerClientInterface.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a7d17b8df2cce46aa92a0fb41702699b1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerClientInterface.html#a7d17b8df2cce46aa92a0fb41702699b1">interaction</a> (string database, string logFile)</td></tr>
+<tr class="memdesc:a7d17b8df2cce46aa92a0fb41702699b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Главная функция для взаимодействия сервера с клиентами  <a href="classServerClientInterface.html#a7d17b8df2cce46aa92a0fb41702699b1">Подробнее...</a><br /></td></tr>
+<tr class="separator:a7d17b8df2cce46aa92a0fb41702699b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac268bd963da15bcd06305e372007bec3"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerClientInterface.html#ac268bd963da15bcd06305e372007bec3">sum_vec</a> ()</td></tr>
+<tr class="memdesc:ac268bd963da15bcd06305e372007bec3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Функция вычисления суммы векторов  <a href="classServerClientInterface.html#ac268bd963da15bcd06305e372007bec3">Подробнее...</a><br /></td></tr>
+<tr class="separator:ac268bd963da15bcd06305e372007bec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14672c6eafb84c36a6585a5d2eada471"><td class="memItemLeft" align="right" valign="top"><a id="a14672c6eafb84c36a6585a5d2eada471"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerClientInterface.html#a14672c6eafb84c36a6585a5d2eada471">get_address</a> ()</td></tr>
+<tr class="memdesc:a14672c6eafb84c36a6585a5d2eada471"><td class="mdescLeft">&#160;</td><td class="mdescRight">Геттер для атрибута address. <br /></td></tr>
+<tr class="separator:a14672c6eafb84c36a6585a5d2eada471"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71940a49234dc3ff464fd438e21639c4"><td class="memItemLeft" align="right" valign="top"><a id="a71940a49234dc3ff464fd438e21639c4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerClientInterface.html#a71940a49234dc3ff464fd438e21639c4">set_address</a> (string address1)</td></tr>
+<tr class="memdesc:a71940a49234dc3ff464fd438e21639c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сеттер для атрибута address. <br /></td></tr>
+<tr class="separator:a71940a49234dc3ff464fd438e21639c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af80ca9548e3c33b6907593d944d8a54c"><td class="memItemLeft" align="right" valign="top"><a id="af80ca9548e3c33b6907593d944d8a54c"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerClientInterface.html#af80ca9548e3c33b6907593d944d8a54c">get_port</a> ()</td></tr>
+<tr class="memdesc:af80ca9548e3c33b6907593d944d8a54c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Геттер для атрибута port. <br /></td></tr>
+<tr class="separator:af80ca9548e3c33b6907593d944d8a54c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb4d81b39c895de505cf50e7e9212ca8"><td class="memItemLeft" align="right" valign="top"><a id="abb4d81b39c895de505cf50e7e9212ca8"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerClientInterface.html#abb4d81b39c895de505cf50e7e9212ca8">set_port</a> (int port1)</td></tr>
+<tr class="memdesc:abb4d81b39c895de505cf50e7e9212ca8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сеттер для атрибута port. <br /></td></tr>
+<tr class="separator:abb4d81b39c895de505cf50e7e9212ca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2de16dc0c5558d4ba7a880ac5065eb9"><td class="memItemLeft" align="right" valign="top"><a id="af2de16dc0c5558d4ba7a880ac5065eb9"></a>
+vector&lt; uint64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerClientInterface.html#af2de16dc0c5558d4ba7a880ac5065eb9">get_vec</a> ()</td></tr>
+<tr class="memdesc:af2de16dc0c5558d4ba7a880ac5065eb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сеттер для атрибута vec. <br /></td></tr>
+<tr class="separator:af2de16dc0c5558d4ba7a880ac5065eb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a1c318057e5c34a32e2c303ffa8f671"><td class="memItemLeft" align="right" valign="top"><a id="a6a1c318057e5c34a32e2c303ffa8f671"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerClientInterface.html#a6a1c318057e5c34a32e2c303ffa8f671">set_vec</a> (vector&lt; uint64_t &gt; v)</td></tr>
+<tr class="memdesc:a6a1c318057e5c34a32e2c303ffa8f671"><td class="mdescLeft">&#160;</td><td class="mdescRight">Геттер для атрибута vec. <br /></td></tr>
+<tr class="separator:a6a1c318057e5c34a32e2c303ffa8f671"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07f2546694ccc15b8511fe4d25aa7051"><td class="memItemLeft" align="right" valign="top"><a id="a07f2546694ccc15b8511fe4d25aa7051"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerClientInterface.html#a07f2546694ccc15b8511fe4d25aa7051">get_salt</a> ()</td></tr>
+<tr class="memdesc:a07f2546694ccc15b8511fe4d25aa7051"><td class="mdescLeft">&#160;</td><td class="mdescRight">Геттер для атрибута salt. <br /></td></tr>
+<tr class="separator:a07f2546694ccc15b8511fe4d25aa7051"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a477cb3b05c6fb872460bfdc7afc0b684"><td class="memItemLeft" align="right" valign="top"><a id="a477cb3b05c6fb872460bfdc7afc0b684"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerClientInterface.html#a477cb3b05c6fb872460bfdc7afc0b684">set_salt</a> ()</td></tr>
+<tr class="memdesc:a477cb3b05c6fb872460bfdc7afc0b684"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сеттер для атрибута salt. <br /></td></tr>
+<tr class="separator:a477cb3b05c6fb872460bfdc7afc0b684"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfa341b8dd551e93b4274e59392e9142"><td class="memItemLeft" align="right" valign="top"><a id="adfa341b8dd551e93b4274e59392e9142"></a>
+pair&lt; vector&lt; string &gt;, vector&lt; string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerClientInterface.html#adfa341b8dd551e93b4274e59392e9142">get_DB_clients</a> ()</td></tr>
+<tr class="memdesc:adfa341b8dd551e93b4274e59392e9142"><td class="mdescLeft">&#160;</td><td class="mdescRight">Геттер для атрибута DB_clients. <br /></td></tr>
+<tr class="separator:adfa341b8dd551e93b4274e59392e9142"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaaeea746b4f636242228e3a5f8e7cf9"><td class="memItemLeft" align="right" valign="top"><a id="abaaeea746b4f636242228e3a5f8e7cf9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerClientInterface.html#abaaeea746b4f636242228e3a5f8e7cf9">set_DB_clients</a> (vector&lt; string &gt; login, vector&lt; string &gt; password)</td></tr>
+<tr class="memdesc:abaaeea746b4f636242228e3a5f8e7cf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сеттер для атрибута DB_clients. <br /></td></tr>
+<tr class="separator:abaaeea746b4f636242228e3a5f8e7cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Класс для взаимодействия сервера с клиентами </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">address</td><td>Адрес сервера </td></tr>
+    <tr><td class="paramname">port</td><td>Порт сервера </td></tr>
+    <tr><td class="paramname">vec</td><td>Вектор для вычисления расчетов </td></tr>
+    <tr><td class="paramname">DB_clients</td><td>БД клиентов </td></tr>
+    <tr><td class="paramname">Err</td><td>объект класса <a class="el" href="classErrors.html" title="Класс обработки ошибок">Errors</a> обработки ошибок </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Методы</h2>
+<a id="a7d17b8df2cce46aa92a0fb41702699b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d17b8df2cce46aa92a0fb41702699b1">&#9670;&nbsp;</a></span>interaction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ServerClientInterface::interaction </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>database</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>logFile</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Главная функция для взаимодействия сервера с клиентами </p>
+<dl class="exception"><dt>Исключения</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classErrors.html" title="Класс обработки ошибок">Errors</a></td><td>при возникновении ошибки </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac268bd963da15bcd06305e372007bec3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac268bd963da15bcd06305e372007bec3">&#9670;&nbsp;</a></span>sum_vec()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t ServerClientInterface::sum_vec </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Функция вычисления суммы векторов </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Возвращает сумму векторов атрибута vec </dd></dl>
+
+</div>
+</div>
+<hr/>Объявления и описания членов классов находятся в файлах:<ul>
+<li><a class="el" href="ServerClientInterface_8h_source.html">ServerClientInterface.h</a></li>
+<li><a class="el" href="ServerClientInterface_8cpp.html">ServerClientInterface.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

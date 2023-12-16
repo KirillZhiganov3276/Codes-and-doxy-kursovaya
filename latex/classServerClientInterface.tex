@@ -1,0 +1,103 @@
+\hypertarget{classServerClientInterface}{}\doxysection{Класс Server\+Client\+Interface}
+\label{classServerClientInterface}\index{ServerClientInterface@{ServerClientInterface}}
+
+
+Класс для взаимодействия сервера с клиентами  
+
+
+
+
+{\ttfamily \#include $<$Server\+Client\+Interface.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classServerClientInterface_a7d17b8df2cce46aa92a0fb41702699b1}{interaction}} (string database, string log\+File)
+\begin{DoxyCompactList}\small\item\em Главная функция для взаимодействия сервера с клиентами \end{DoxyCompactList}\item 
+uint64\+\_\+t \mbox{\hyperlink{classServerClientInterface_ac268bd963da15bcd06305e372007bec3}{sum\+\_\+vec}} ()
+\begin{DoxyCompactList}\small\item\em Функция вычисления суммы векторов \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classServerClientInterface_a14672c6eafb84c36a6585a5d2eada471}\label{classServerClientInterface_a14672c6eafb84c36a6585a5d2eada471}} 
+string \mbox{\hyperlink{classServerClientInterface_a14672c6eafb84c36a6585a5d2eada471}{get\+\_\+address}} ()
+\begin{DoxyCompactList}\small\item\em Геттер для атрибута address. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classServerClientInterface_a71940a49234dc3ff464fd438e21639c4}\label{classServerClientInterface_a71940a49234dc3ff464fd438e21639c4}} 
+void \mbox{\hyperlink{classServerClientInterface_a71940a49234dc3ff464fd438e21639c4}{set\+\_\+address}} (string address1)
+\begin{DoxyCompactList}\small\item\em Сеттер для атрибута address. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classServerClientInterface_af80ca9548e3c33b6907593d944d8a54c}\label{classServerClientInterface_af80ca9548e3c33b6907593d944d8a54c}} 
+int \mbox{\hyperlink{classServerClientInterface_af80ca9548e3c33b6907593d944d8a54c}{get\+\_\+port}} ()
+\begin{DoxyCompactList}\small\item\em Геттер для атрибута port. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classServerClientInterface_abb4d81b39c895de505cf50e7e9212ca8}\label{classServerClientInterface_abb4d81b39c895de505cf50e7e9212ca8}} 
+void \mbox{\hyperlink{classServerClientInterface_abb4d81b39c895de505cf50e7e9212ca8}{set\+\_\+port}} (int port1)
+\begin{DoxyCompactList}\small\item\em Сеттер для атрибута port. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classServerClientInterface_af2de16dc0c5558d4ba7a880ac5065eb9}\label{classServerClientInterface_af2de16dc0c5558d4ba7a880ac5065eb9}} 
+vector$<$ uint64\+\_\+t $>$ \mbox{\hyperlink{classServerClientInterface_af2de16dc0c5558d4ba7a880ac5065eb9}{get\+\_\+vec}} ()
+\begin{DoxyCompactList}\small\item\em Сеттер для атрибута vec. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classServerClientInterface_a6a1c318057e5c34a32e2c303ffa8f671}\label{classServerClientInterface_a6a1c318057e5c34a32e2c303ffa8f671}} 
+void \mbox{\hyperlink{classServerClientInterface_a6a1c318057e5c34a32e2c303ffa8f671}{set\+\_\+vec}} (vector$<$ uint64\+\_\+t $>$ v)
+\begin{DoxyCompactList}\small\item\em Геттер для атрибута vec. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classServerClientInterface_a07f2546694ccc15b8511fe4d25aa7051}\label{classServerClientInterface_a07f2546694ccc15b8511fe4d25aa7051}} 
+string \mbox{\hyperlink{classServerClientInterface_a07f2546694ccc15b8511fe4d25aa7051}{get\+\_\+salt}} ()
+\begin{DoxyCompactList}\small\item\em Геттер для атрибута salt. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classServerClientInterface_a477cb3b05c6fb872460bfdc7afc0b684}\label{classServerClientInterface_a477cb3b05c6fb872460bfdc7afc0b684}} 
+void \mbox{\hyperlink{classServerClientInterface_a477cb3b05c6fb872460bfdc7afc0b684}{set\+\_\+salt}} ()
+\begin{DoxyCompactList}\small\item\em Сеттер для атрибута salt. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classServerClientInterface_adfa341b8dd551e93b4274e59392e9142}\label{classServerClientInterface_adfa341b8dd551e93b4274e59392e9142}} 
+pair$<$ vector$<$ string $>$, vector$<$ string $>$ $>$ \mbox{\hyperlink{classServerClientInterface_adfa341b8dd551e93b4274e59392e9142}{get\+\_\+\+DB\+\_\+clients}} ()
+\begin{DoxyCompactList}\small\item\em Геттер для атрибута DB\+\_\+clients. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classServerClientInterface_abaaeea746b4f636242228e3a5f8e7cf9}\label{classServerClientInterface_abaaeea746b4f636242228e3a5f8e7cf9}} 
+void \mbox{\hyperlink{classServerClientInterface_abaaeea746b4f636242228e3a5f8e7cf9}{set\+\_\+\+DB\+\_\+clients}} (vector$<$ string $>$ login, vector$<$ string $>$ password)
+\begin{DoxyCompactList}\small\item\em Сеттер для атрибута DB\+\_\+clients. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс для взаимодействия сервера с клиентами 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em address} & Адрес сервера \\
+\hline
+{\em port} & Порт сервера \\
+\hline
+{\em vec} & Вектор для вычисления расчетов \\
+\hline
+{\em DB\+\_\+clients} & БД клиентов \\
+\hline
+{\em Err} & объект класса \mbox{\hyperlink{classErrors}{Errors}} обработки ошибок \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{classServerClientInterface_a7d17b8df2cce46aa92a0fb41702699b1}\label{classServerClientInterface_a7d17b8df2cce46aa92a0fb41702699b1}} 
+\index{ServerClientInterface@{ServerClientInterface}!interaction@{interaction}}
+\index{interaction@{interaction}!ServerClientInterface@{ServerClientInterface}}
+\doxysubsubsection{\texorpdfstring{interaction()}{interaction()}}
+{\footnotesize\ttfamily int Server\+Client\+Interface\+::interaction (\begin{DoxyParamCaption}\item[{string}]{database,  }\item[{string}]{log\+File }\end{DoxyParamCaption})}
+
+
+
+Главная функция для взаимодействия сервера с клиентами 
+
+
+\begin{DoxyExceptions}{Исключения}
+{\em \mbox{\hyperlink{classErrors}{Errors}}} & при возникновении ошибки \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classServerClientInterface_ac268bd963da15bcd06305e372007bec3}\label{classServerClientInterface_ac268bd963da15bcd06305e372007bec3}} 
+\index{ServerClientInterface@{ServerClientInterface}!sum\_vec@{sum\_vec}}
+\index{sum\_vec@{sum\_vec}!ServerClientInterface@{ServerClientInterface}}
+\doxysubsubsection{\texorpdfstring{sum\_vec()}{sum\_vec()}}
+{\footnotesize\ttfamily uint64\+\_\+t Server\+Client\+Interface\+::sum\+\_\+vec (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Функция вычисления суммы векторов 
+
+\begin{DoxyReturn}{Возвращает}
+Возвращает сумму векторов атрибута vec 
+\end{DoxyReturn}
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{ServerClientInterface_8h}{Server\+Client\+Interface.\+h}}\item 
+\mbox{\hyperlink{ServerClientInterface_8cpp}{Server\+Client\+Interface.\+cpp}}\end{DoxyCompactItemize}

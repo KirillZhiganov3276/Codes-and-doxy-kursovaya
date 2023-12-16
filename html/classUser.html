@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Документация на использование программы сервера: Класс User</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Документация на использование программы сервера
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Программа для взаимодействия с клиентами</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="classUser-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс User</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Класс, представляющий информацию о подлюченном пользователе  
+ <a href="classUser.html#details">Подробнее...</a></p>
+
+<p><code>#include &lt;<a class="el" href="User_8h_source.html">User.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a1753823c0f9adbb73260860270f51834"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUser.html#a1753823c0f9adbb73260860270f51834">СheckLogin</a> (vector&lt; string &gt; Db_ID)</td></tr>
+<tr class="memdesc:a1753823c0f9adbb73260860270f51834"><td class="mdescLeft">&#160;</td><td class="mdescRight">Функция для проверки ID подключенного клиента  <a href="classUser.html#a1753823c0f9adbb73260860270f51834">Подробнее...</a><br /></td></tr>
+<tr class="separator:a1753823c0f9adbb73260860270f51834"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe568031a6c845508f996a1262144cae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUser.html#afe568031a6c845508f996a1262144cae">CheckPassword</a> (vector&lt; string &gt; Db_hash, vector&lt; string &gt; Db_ID, string SALT)</td></tr>
+<tr class="memdesc:afe568031a6c845508f996a1262144cae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Функция для проверки пароля подключенного клиента  <a href="classUser.html#afe568031a6c845508f996a1262144cae">Подробнее...</a><br /></td></tr>
+<tr class="separator:afe568031a6c845508f996a1262144cae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a250efd79e8d26576e508e1785165926c"><td class="memItemLeft" align="right" valign="top"><a id="a250efd79e8d26576e508e1785165926c"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUser.html#a250efd79e8d26576e508e1785165926c">get_ID</a> ()</td></tr>
+<tr class="memdesc:a250efd79e8d26576e508e1785165926c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Геттер для атрибута ID. <br /></td></tr>
+<tr class="separator:a250efd79e8d26576e508e1785165926c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36330a5c4b0c37859896fd4b08c87c41"><td class="memItemLeft" align="right" valign="top"><a id="a36330a5c4b0c37859896fd4b08c87c41"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUser.html#a36330a5c4b0c37859896fd4b08c87c41">set_ID</a> (string ID1)</td></tr>
+<tr class="memdesc:a36330a5c4b0c37859896fd4b08c87c41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сеттер для атрибута ID. <br /></td></tr>
+<tr class="separator:a36330a5c4b0c37859896fd4b08c87c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25785cee66a1ca4f79d964a8333963d2"><td class="memItemLeft" align="right" valign="top"><a id="a25785cee66a1ca4f79d964a8333963d2"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUser.html#a25785cee66a1ca4f79d964a8333963d2">get_hash</a> ()</td></tr>
+<tr class="memdesc:a25785cee66a1ca4f79d964a8333963d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Геттер для атрибута hash. <br /></td></tr>
+<tr class="separator:a25785cee66a1ca4f79d964a8333963d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8efeeb227a1c45ff30dc5ac2287e2c48"><td class="memItemLeft" align="right" valign="top"><a id="a8efeeb227a1c45ff30dc5ac2287e2c48"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUser.html#a8efeeb227a1c45ff30dc5ac2287e2c48">set_hash</a> (string hash1)</td></tr>
+<tr class="memdesc:a8efeeb227a1c45ff30dc5ac2287e2c48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сеттер для атрибута hash. <br /></td></tr>
+<tr class="separator:a8efeeb227a1c45ff30dc5ac2287e2c48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Класс, представляющий информацию о подлюченном пользователе </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ID</td><td>ID подлюченного клиента </td></tr>
+    <tr><td class="paramname">hash</td><td>хэш-код подлюченного клиента </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Методы</h2>
+<a id="afe568031a6c845508f996a1262144cae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe568031a6c845508f996a1262144cae">&#9670;&nbsp;</a></span>CheckPassword()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool User::CheckPassword </td>
+          <td>(</td>
+          <td class="paramtype">vector&lt; string &gt;&#160;</td>
+          <td class="paramname"><em>Db_password</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vector&lt; string &gt;&#160;</td>
+          <td class="paramname"><em>Db_ID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>SALT</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Функция для проверки пароля подключенного клиента </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Возвращает true - если пароль подлюченнго клиента совпадает с паролем из БД, иначе false </dd></dl>
+
+</div>
+</div>
+<a id="a1753823c0f9adbb73260860270f51834"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1753823c0f9adbb73260860270f51834">&#9670;&nbsp;</a></span>СheckLogin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool User::СheckLogin </td>
+          <td>(</td>
+          <td class="paramtype">vector&lt; string &gt;&#160;</td>
+          <td class="paramname"><em>Db_ID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Функция для проверки ID подключенного клиента </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Возвращает true - если в БД есть ID подключенного клиента, иначе false </dd></dl>
+
+</div>
+</div>
+<hr/>Объявления и описания членов классов находятся в файлах:<ul>
+<li><a class="el" href="User_8h_source.html">User.h</a></li>
+<li><a class="el" href="User_8cpp.html">User.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

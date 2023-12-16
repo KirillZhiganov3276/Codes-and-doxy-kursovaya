@@ -1,0 +1,61 @@
+\hypertarget{classDataReader}{}\doxysection{Класс Data\+Reader}
+\label{classDataReader}\index{DataReader@{DataReader}}
+
+
+Класс для получения БД клиентов  
+
+
+
+
+{\ttfamily \#include $<$Data\+Reader.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classDataReader_a516ad945eb7ae39580523bb8f3f1530e}\label{classDataReader_a516ad945eb7ae39580523bb8f3f1530e}} 
+string \mbox{\hyperlink{classDataReader_a516ad945eb7ae39580523bb8f3f1530e}{get\+\_\+\+File\+Reader}} ()
+\begin{DoxyCompactList}\small\item\em Геттер для атрибута File\+Reader. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDataReader_a6d072500ab529acb62c383954a5f6bad}\label{classDataReader_a6d072500ab529acb62c383954a5f6bad}} 
+void \mbox{\hyperlink{classDataReader_a6d072500ab529acb62c383954a5f6bad}{set\+\_\+\+File\+Reader}} (string file)
+\begin{DoxyCompactList}\small\item\em Сеттер для атрибута File\+Reader. \end{DoxyCompactList}\item 
+pair$<$ vector$<$ string $>$, vector$<$ string $>$ $>$ \mbox{\hyperlink{classDataReader_a6aed13ceb0d30b8f97f5c6a5063e2259}{get\+Client}} ()
+\begin{DoxyCompactList}\small\item\em Функция для получения БД клиентов \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс для получения БД клиентов 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em File\+Reader} & путь к файлу с БД клиентов \\
+\hline
+{\em Err} & объект класса \mbox{\hyperlink{classErrors}{Errors}} обработки ошибок \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{classDataReader_a6aed13ceb0d30b8f97f5c6a5063e2259}\label{classDataReader_a6aed13ceb0d30b8f97f5c6a5063e2259}} 
+\index{DataReader@{DataReader}!getClient@{getClient}}
+\index{getClient@{getClient}!DataReader@{DataReader}}
+\doxysubsubsection{\texorpdfstring{getClient()}{getClient()}}
+{\footnotesize\ttfamily pair$<$ vector$<$ string $>$, vector$<$ string $>$ $>$ Data\+Reader\+::get\+Client (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Функция для получения БД клиентов 
+
+\begin{DoxyReturn}{Возвращает}
+Возращает два вектора\+: логины и пароли клиентов 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Исключения}
+{\em \mbox{\hyperlink{classErrors}{Errors}}} & при возникновении ошибки \\
+\hline
+\end{DoxyExceptions}
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{DataReader_8h}{Data\+Reader.\+h}}\item 
+\mbox{\hyperlink{DataReader_8cpp}{Data\+Reader.\+cpp}}\end{DoxyCompactItemize}
